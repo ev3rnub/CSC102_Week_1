@@ -1,0 +1,27 @@
+.center { 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    color: aliceblue;
+}
+
+.horizontal{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    color:aliceblue;
+}
+
+body {
+    position:relative;               /* establish a containing block */
+    height:100vh;                    /* full viewport height */
+    margin:0;
+    background:#111;
+}
+.meme {
+    position:absolute;
+    top:50%; left:50%;               /* move origin to centre */
+    width:500px;
+    height:auto;
+    transform:translate(-50%,-50%);  /* pull the image back by half its size */
+}
