@@ -1,0 +1,36 @@
+/* Body */
+body {
+    position:relative;               
+    height:100vh;                    
+    margin:0;
+    background: black;
+    color: whitesmoke;
+}
+
+nav{
+    height: 600px; /* height in pixels */
+    width: 200px; /* width in pixels */
+    float: left; /* nav bar should float to the lect */
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage {
+    margin-right: 200px;
+}
+
+li{
+    display:flex; 
+    justify-content:center; 
+    align-items:left;
+    color:aliceblue;
+}
+
+header{
+    text-align: center;
+}

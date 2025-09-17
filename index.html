@@ -1,32 +1,33 @@
-<!-- Chad Verbus 09/14/2025 -->
+<!-- Chad Verbus 09/17/2025 -->
 <!-- DOCTYPE defines the version of HTML, HTML5 -->
 <!DOCTYPE html>
 <!-- HTML tag goes next, along with the property lang="en", specifying english -->
 <html lang="en">
-    <!-- Header tag and classname of "center"-->
-    <head class="center">
-        
+    <!-- Head tag and classname of "center"-->
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main.css">
         <title>CSC102 Homepage</title>
     </head>
-<!-- Body goes here and holds the main content of this page -->
+<!-- Body goes here and holds the main content of this document -->
     <body>
         <header>
-            <nav class="horizontal">
-                <a href="boards.html"> Boards </a>
-                <a href="contact.html"> Contact </a>
+            <!-- nav bar -->
+            <nav>
+                <li><a href="boards.html">   Boards   </a></li>
+                <li><a href="contact.html">   Contact   </a></li>
             </nav>
         </header>
 
         <!-- Heading 1 -->
-        <h1 class="center">Welcome to my CSC102 Homepage</h1>
+        <h1>Welcome to my CSC102 Homepage</h1>
         <p>
             <!-- meme image/image w/alt text for hearing impaired -->
-            <img class="meme" 
+            <img id=memeImage 
                 src="./meme.png" 
-                alt="an image of a meme showing an ancient mantra">
+                alt="an image of a meme showing an ancient mantra"
+            >
         </p>
     </body>
 </html>
